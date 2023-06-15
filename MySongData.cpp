@@ -5,7 +5,7 @@ MySongData::MySongData(std::string fil)
 {
     file_path = fil;
 
-    // Seems like I can't declare a FileRef. Having Linker Issues. :(
+    // Linker Issues with TagLib
     // TagLib::FileRef file_ref(fil.c_str());
 
     /*
